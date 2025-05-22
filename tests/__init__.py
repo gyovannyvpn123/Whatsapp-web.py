@@ -1,3 +1,3 @@
 """
-Test suite for WhatsApp Web library.
+Tests for wawspy - WhatsApp Web Python library.
 """
