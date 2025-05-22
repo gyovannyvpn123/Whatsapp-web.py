@@ -1,0 +1,27 @@
+[project]
+name = "whatsapp-web-py"
+version = "0.1.0"
+description = "A pure Python library for WhatsApp Web communication with full Signal Protocol encryption support"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=45.0.2",
+    "pillow>=11.2.1",
+    "protobuf>=6.31.0",
+    "qrcode>=8.2",
+    "requests>=2.32.3",
+    "websockets>=15.0.1",
+]
+authors = [
+    {name = "WhatsApp Web Python Library Contributors"}
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["whatsapp"]
